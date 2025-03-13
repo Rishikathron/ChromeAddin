@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Bridge EXE Launcher",
+    "version": "1.0",
+    "description": "Launches a native EXE using native messaging when a link is clicked.",
+    "permissions": [
+        "nativeMessaging",
+        "activeTab",
+        "scripting",
+        "downloads"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "action": {
+        "default_title": "Bridge EXE Launcher"
+    }
+}
