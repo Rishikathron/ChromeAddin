@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BridgeNativeHostInstaller||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}|BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj|C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\Product.wxs||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}|BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj|solutionrelative:BridgeNativeHostInstaller\\Product.wxs||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}|BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj|C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\com.example.bridge.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}|BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj|solutionrelative:BridgeNativeHostInstaller\\com.example.bridge.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHost\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\NativeHostRegistrar\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}|BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj|C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|37da98b6-c5f4-4ce6-867f-553ebe590abe",
+      "RelativeMoniker": "D:0:0:{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}|BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj|solutionrelative:BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|37da98b6-c5f4-4ce6-867f-553ebe590abe"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\NativeHostRegistrar\\Program.cs",
+              "RelativeDocumentMoniker": "..\\NativeHostRegistrar\\Program.cs",
+              "ToolTip": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\NativeHostRegistrar\\Program.cs",
+              "RelativeToolTip": "..\\NativeHostRegistrar\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwDQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:41:22.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHost\\Program.cs",
+              "RelativeDocumentMoniker": "..\\BridgeNativeHost\\Program.cs",
+              "ToolTip": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHost\\Program.cs",
+              "RelativeToolTip": "..\\BridgeNativeHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T07:41:15.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.wxs",
+              "DocumentMoniker": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\Product.wxs",
+              "RelativeDocumentMoniker": "BridgeNativeHostInstaller\\Product.wxs",
+              "ToolTip": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\Product.wxs",
+              "RelativeToolTip": "BridgeNativeHostInstaller\\Product.wxs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwEYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-10T09:37:52.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "com.example.bridge.json",
+              "DocumentMoniker": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\com.example.bridge.json",
+              "RelativeDocumentMoniker": "BridgeNativeHostInstaller\\com.example.bridge.json",
+              "ToolTip": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\com.example.bridge.json",
+              "RelativeToolTip": "BridgeNativeHostInstaller\\com.example.bridge.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T09:27:48.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BridgeNativeHostInstaller",
+              "DocumentMoniker": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj",
+              "RelativeDocumentMoniker": "BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj",
+              "ToolTip": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj",
+              "RelativeToolTip": "BridgeNativeHostInstaller\\BridgeNativeHostInstaller.wixproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-10T10:07:17.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

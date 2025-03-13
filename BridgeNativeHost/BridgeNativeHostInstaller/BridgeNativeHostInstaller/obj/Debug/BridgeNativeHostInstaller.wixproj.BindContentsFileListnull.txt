@@ -1,0 +1,3 @@
+BridgeNativeHost.exe
+com.example.bridge.json
+CustomActions\NativeHostRegistrar.exe

@@ -1,0 +1,2 @@
+C:\Users\122734\source\repos\BridgeNativeHost\BridgeNativeHostInstaller\BridgeNativeHostInstaller\bin\Debug\BridgeNativeHostInstaller.msi
+C:\Users\122734\source\repos\BridgeNativeHost\BridgeNativeHostInstaller\BridgeNativeHostInstaller\bin\Debug\BridgeNativeHostInstaller.wixpdb

@@ -1,0 +1,14 @@
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\bin\Debug\net8.0\NativeHostRegistrar.exe
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\bin\Debug\net8.0\NativeHostRegistrar.deps.json
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\bin\Debug\net8.0\NativeHostRegistrar.runtimeconfig.json
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\bin\Debug\net8.0\NativeHostRegistrar.dll
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\bin\Debug\net8.0\NativeHostRegistrar.pdb
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\NativeHostRegistrar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\NativeHostRegistrar.AssemblyInfoInputs.cache
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\NativeHostRegistrar.AssemblyInfo.cs
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\NativeHostRegistrar.csproj.CoreCompileInputs.cache
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\NativeHostRegistrar.dll
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\refint\NativeHostRegistrar.dll
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\NativeHostRegistrar.pdb
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\NativeHostRegistrar.genruntimeconfig.cache
+C:\Users\122734\source\repos\BridgeNativeHost\NativeHostRegistrar\obj\Debug\net8.0\ref\NativeHostRegistrar.dll

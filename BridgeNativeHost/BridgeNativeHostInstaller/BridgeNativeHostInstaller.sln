@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "BridgeNativeHostInstaller", "BridgeNativeHostInstaller\BridgeNativeHostInstaller.wixproj", "{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3178708C-7EA6-4467-8875-2F532CBE45C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}.Debug|x86.ActiveCfg = Debug|x86
+		{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}.Debug|x86.Build.0 = Debug|x86
+		{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}.Release|x86.ActiveCfg = Release|x86
+		{BD2B91F0-5BFC-49C6-B946-C9068F2A7C02}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

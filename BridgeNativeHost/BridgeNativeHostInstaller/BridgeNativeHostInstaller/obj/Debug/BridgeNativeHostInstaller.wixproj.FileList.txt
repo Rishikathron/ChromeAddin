@@ -1,0 +1,6 @@
+C:\Users\122734\source\repos\BridgeNativeHost\BridgeNativeHostInstaller\BridgeNativeHostInstaller\bin\Debug\BridgeNativeHostInstaller.msi
+C:\Users\122734\source\repos\BridgeNativeHost\BridgeNativeHostInstaller\BridgeNativeHostInstaller\bin\Debug\BridgeNativeHostInstaller.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\BridgeNativeHostInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\BridgeNativeHostInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\BridgeNativeHostInstaller.wixproj.BindBuiltOutputsFileListnull.txt

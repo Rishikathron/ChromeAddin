@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BridgeNativeHost",
+    "\\BridgeNativeHostInstaller",
+    "\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller",
+    "\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\CustomActions",
+    "\\NativeHostRegistrar"
+  ],
+  "SelectedNode": "\\BridgeNativeHostInstaller\\BridgeNativeHostInstaller\\Product.wxs",
+  "PreviewInSolutionExplorer": false
+}

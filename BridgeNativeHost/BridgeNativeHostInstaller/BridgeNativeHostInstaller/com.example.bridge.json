@@ -1,0 +1,9 @@
+{
+  "name": "com.example.bridge",
+  "description": "Native messaging host for Bridge EXE Launcher",
+  "path": "C:\\Users\\122734\\source\\repos\\BridgeNativeHost\\BridgeNativeHost\\bin\\Debug\\net8.0\\BridgeNativeHost.exe",  
+  "type": "stdio",
+  "allowed_origins": [
+      "chrome-extension://ljlemefheihnbniaboegfgnikdpcbdoh/"
+  ]
+}

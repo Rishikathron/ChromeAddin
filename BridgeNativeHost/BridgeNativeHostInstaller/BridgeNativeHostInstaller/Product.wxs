@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <!-- Product definition -->
+  <Product Id="E2550DE2-CCB6-4239-A44C-E6D7A9DE963E"
+           Name="Bridge Native Host"
+           Language="1033"
+           Version="1.0.0.0"
+           Manufacturer="Toppan Merrill"
+           UpgradeCode="79AB582F-B269-43AE-84B4-6574E47766C1">
+    <Package InstallerVersion="500" Compressed="yes" InstallScope="perUser" />
+    <MediaTemplate EmbedCab="yes" />
+
+    <!-- Directory structure -->
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <!-- Install executable in Program Files -->
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="Bridge Native Host" />
+      </Directory>
+      <!-- Install manifest file in LocalAppData -->
+      <Directory Id="LocalAppDataFolder">
+        <Directory Id="GoogleFolder" Name="Google">
+          <Directory Id="ChromeFolder" Name="Chrome">
+            <Directory Id="UserDataFolder" Name="User Data">
+              <Directory Id="NativeMessagingHostsFolder" Name="NativeMessagingHosts" />
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <!-- Feature: includes all components -->
+    <Feature Id="ProductFeature" Title="Bridge Native Host" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+      <ComponentGroupRef Id="ManifestComponents" />
+      <ComponentGroupRef Id="CustomActionComponents" />
+    </Feature>
+  </Product>
+
+  <!-- Fragment 1: Install the native host executable -->
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <Component Id="BridgeNativeHostExe" Guid="FB348200-2C0A-4EAB-85B3-B40C1AD5E5FC">
+        <!-- Install BridgeNativeHost.exe from the NativeHostFiles folder -->
+        <File Id="BridgeNativeHostExeFile" Source="BridgeNativeHost.exe" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <!-- Fragment 2: Install the manifest file -->
+  <Fragment>
+    <DirectoryRef Id="NativeMessagingHostsFolder">
+      <Component Id="NativeMessagingHostManifest" Guid="507A93CC-9604-43CA-B478-287108DA2849">
+        <CreateFolder />
+        <!-- Install the manifest file; note: do not mark it as KeyPath -->
+        <File Id="ManifestFile" Source="com.example.bridge.json" />
+        <!-- Remove the folder on uninstall -->
+        <RemoveFolder Id="RemoveNativeMessagingHostsFolder" On="uninstall" />
+        <!-- Use a registry value as the KeyPath for this component -->
+        <RegistryValue Root="HKCU"
+                       Key="Software\Google\Chrome\NativeMessagingHosts\com.example.bridge"
+                       Type="string"
+                       Value="[LocalAppDataFolder]Google\Chrome\User Data\NativeMessagingHosts\com.example.bridge.json"
+                       KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+    <ComponentGroup Id="ManifestComponents">
+      <ComponentRef Id="NativeMessagingHostManifest" />
+    </ComponentGroup>
+  </Fragment>
+
+  <!-- Fragment 3: Custom Action to run NativeHostRegistrar.exe (helper executable) -->
+  <Fragment>
+    <!-- Place NativeHostRegistrar.exe in the INSTALLFOLDER (or another folder if desired) -->
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="NativeHostRegistrarExe" Guid="A1D3E0F0-1234-4567-89AB-CDEF01234567">
+        <File Id="NativeHostRegistrarExeFile" Source="CustomActions\NativeHostRegistrar.exe" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+    <ComponentGroup Id="CustomActionComponents" Directory="INSTALLFOLDER">
+      <ComponentRef Id="NativeHostRegistrarExe" />
+    </ComponentGroup>
+    <!-- Define the custom action to run the NativeHostRegistrar.exe -->
+    <CustomAction Id="RegisterNativeHost"
+                  FileKey="NativeHostRegistrarExeFile"
+                  ExeCommand="/k"
+                  Execute= "deferred"
+                  Return="check"
+                  Impersonate="no"/>
+    <InstallExecuteSequence>
+      <!-- Schedule the custom action after InstallFinalize during commit phase -->
+      <!--<Custom Action="RegisterNativeHost" After="InstallFiles">1</Custom>-->
+      <Custom Action="RegisterNativeHost" After="InstallFinalize">NOT Installed</Custom>
+    </InstallExecuteSequence>
+  </Fragment>
+</Wix>
